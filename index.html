@@ -1,0 +1,868 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Pearl Cart</title>
+</head>
+
+<body>
+    <!-- <h1>Hello, world!</h1> -->
+    <nav class="navbar navbar-expand-lg navbar-danger bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand na" href="#"> Pearl Cart</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active na" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link na" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">Sign-In</a>
+                         <!-- Modal -->
+           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="img-thumbnail" alt="image">
+                    <center>
+                        <h5>Name</h5>
+                        <input type="text">
+                        <h5>Email</h5>
+                        <input type="email" name="" id="">
+                        <h5>Password</h5>
+                        <input type="password" name="" id="">
+                    </center>
+                </div>
+                <div class="modal-footer">
+                   
+                  <button type="button" class="btn btn-danger  " data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-secondary ">Forgot Password</button>
+               
+                </div>
+              </div>
+            </div>
+          </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link na" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">Sign-Up</a>
+                          <!-- Modal -->
+           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://source.unsplash.com/collection/190727/1600x900" class="img-thumbnail" alt="image">
+                    <center>
+                        <h5>Name</h5>
+                        <input type="text">
+                        <h5>Email</h5>
+                        <input type="email" name="" id="">
+                        <h5>Password</h5>
+                        <input type="password" name="" id="">
+                    </center>
+                </div>
+                <div class="modal-footer">
+                   
+                  <button type="button" class="btn btn-danger  " data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-secondary ">Forgot Password</button>
+               
+                </div>
+              </div>
+            </div>
+          </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link na" href="#">Cart</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle na" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li> -->
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success na" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Nav 2 -->
+    <div id="nav22">
+        <!-- Example single danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger dropdown-toggle btn10" data-bs-toggle="dropdown" aria-expanded="false">
+      Mobiles
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+  <!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle btn10" data-bs-toggle="dropdown" aria-expanded="false">
+    Laptops
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+<!-- Example single danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger dropdown-toggle btn10" data-bs-toggle="dropdown" aria-expanded="false">
+      Audio
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+
+  <!-- Example single danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger dropdown-toggle btn10" data-bs-toggle="dropdown" aria-expanded="false">
+        Electronic Accessories
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+
+  <!-- Example single danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger dropdown-toggle btn10" data-bs-toggle="dropdown" aria-expanded="false">      
+    Home Appliances
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+
+  <!-- Example single danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger dropdown-toggle btn10" data-bs-toggle="dropdown" aria-expanded="false">
+      Tablets
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+
+    </div>
+
+    <!-- Carausel -->
+    <div id="carausel1">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/lap2.jpg" class="d-block w-100 carausel11" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Laptop Offers</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/mob1.jpg" class="d-block w-100 carausel11" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Mobile Offers</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/lap4.jpg" class="d-block w-100 carausel11" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Electronics Offers</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+    <!-- Offer Image -->
+    <div>
+        <img id="ad1" src="./img/flipOffers.webp" alt="">
+    </div>
+
+    <!-- Grid -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <!-- One of three columns -->
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/a-iphone1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple Iphone 12</h5>
+                        <p class="card-text">Blue, 64 GB</p>
+                        <h4 class="price">Price : 79,999/-</h4>
+                        <a href="./gyana1/mobile-a-1.html" class="btn btn-primary">More Details</a>
+                        <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/b-samsung1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Galaxy A72</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./gyana1/mobile-b-1.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/c-xiomi1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Redmi Note 9</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./gyana1/mobile-c-1.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/d-vivo1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Vivo Y20G</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./gyana1/mobile-d-1.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/E-realme1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Realme 8</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./gyana1/mobile-e-1.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <!-- One of three columns -->
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/a-iphone2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple Iphone 11</h5>
+                        <p class="card-text">Red, 64 GB</p>
+                        <h4 class="price">Price : 79,999/-</h4>
+                        <a href="./gyana1/mobile-a-2.html" class="btn btn-primary">More Details</a>
+                        <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/b-samsung2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Galaxy A52</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./gyana1/mobile-b-2.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/c-xiomi2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mi 10i</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./gyana1/mobile-c-2.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/d-vivo2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Vivo Y20 2021</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./gyana1/mobile-d-2.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/E-realme2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Realme 8 Pro</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./gyana1/mobile-e-2.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+            
+
+
+
+            <div class="col-sm">
+                <!-- One of three columns -->
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/a-iphone3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple Iphone 12 Pro Max</h5>
+                        <p class="card-text">
+                            Pacific Blue, 128 GB
+                        </p>
+                        <h4 class="price">Price : 79,999/-</h4>
+                        <a href="./gyana1/mobile-a-3.html" class="btn btn-primary">More Details</a>
+                        <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/b-samsung3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Galaxy F62</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <h4 class="price">Price : 79,999/-</h4>
+                        <a href="./gyana1/mobile-b-3.html" class="btn btn-primary">More Details</a>
+                        <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/c-xiomi3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mi 10T</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./gyana1/mobile-c-3.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/d-vivo3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Vivo 12 S</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./gyana1/mobile-d-3.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/E-realme3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Realme Narzo 30 Pro 5G</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./gyana1/mobile-e-3.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <!-- One of three columns -->
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/a-iphone4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple Iphone 12 Mini</h5>
+                        <p class="card-text">Black, 128 GB</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./gyana1/mobile-a-4.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/b-samsung4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Galaxy M02</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./gyana1/mobile-b-4.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/c-xiomi4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mi 10T Pro</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./gyana1/mobile-c-4.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/d-vivo4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Vivo Y51A</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./gyana1/mobile-d-4.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/frontpage/E-realme4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Realme Narzo 30 A</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./gyana1/mobile-e-4.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Offer Image -->
+    <div>
+        <img id="ad2" src="./img/flipOffers1.webp" alt="">
+    </div>
+
+
+
+    <!-- Grid -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <!-- One of three columns -->
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/acer aspire 5 core i5.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Acer Aspire 5 Core i5</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./prashant1/lap1.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/asus cereron dual core.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Asus Cereron Dual Core</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./prashant1/lap6.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/dell g3.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dell G3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./prashant1/lap11.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/hp 15s core i3.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">HP 15s Core i3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./ravi/post6.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/lenovo legion y540.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lenovo Legion y540</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./ravi/post5.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <!-- One of three columns -->
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/Acer aspire 7ryzen5.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Acer aspire 7 Ryzen 5</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./prashant1/lap2.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/asus rog strix g 15.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Asus Rog Strix G 15</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./prashant1/lap7.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/dell g7.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dell G7</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./prashant1/lap12.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/hp chromebook 14a celeron.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">HP Chromebook 14a</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./ravi/post7.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/lenovo ideapad s145.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lenovo Ideapad s145</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./ravi/post2.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <!-- One of three columns -->
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/acer one 14 pentium gold.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Acer One 14 Pentium</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./prashant1/lap3.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/asusvivobook ultra 14.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Asus Vivobook Ultra 14</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./prashant1/lap10.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/dell inspiron core i5.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dell Inspiron Core i5</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./prashant1/lap13.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/hp omen ryzen 5 hexa.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">HP Omen Ryzen 5 Hexa</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./ravi/post8.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/lenovo ideapad slim 3.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lenovo Ideapad Slim 3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./ravi/post3.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <!-- One of three columns -->
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/acer predator helios 300.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Acer Predator Helios 300</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./prashant1/lap4.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/asus vivobook 15.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Asus Vivobook 15</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./prashant1/lap9.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/dell vostro core i3.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dell Vostro Core i3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./prashant1/lap14.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/hp pavilion core i7.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">HP Pavilion Core i7</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./ravi/post9.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/laptop1/lenovo legion 5 ryzen 5.jpeg" class="card-img-top1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lenovo Legion 5 Ryzen 5</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                            <h4 class="price">Price : 79,999/-</h4>
+                            <a href="./ravi/post4.html" class="btn btn-primary">More Details</a>
+                            <a href="./anil/buynow.html" class="btn btn-outline-success">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer  -->
+    <footer id="foot1">
+
+
+        <div class='foot'>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <!-- One of three columns -->
+                        <h3>About</h3>
+                        <hr>
+                        <a href="./gyana html/contact.html">Contact Us</a> <br>
+                        <!-- <a href="./gyana html/about.html">About Us</a> <br> -->
+                        <a href="./anil/about.html">About Us</a> <br>
+                        <a href="./gyana html/careers.html">Careers</a> <br>
+                        <a href="./gyana html/stories.html">Black Pearl Stories</a> <br>
+                        <a href="./gyana html/press.html">Press</a> <br>
+                        <a href="./gyana html/wholesale.html">WholeSale</a> <br>
+                    </div>
+                    <div class="col-sm">
+                        <!-- One of three columns -->
+                        <h3>Help</h3>
+                        <hr>
+                        <a href="./manjunath html/payment.html">Payment</a> <br>
+                        <a href="./manjunath html/Shipping.html">Shipping</a> <br>
+                        <a href="./manjunath html/Cancellation and return.html">Cancellation</a> <br>
+                        <a href="./manjunath html/Cancellation and return.html">Returns</a> <br>
+                        <a href="./manjunath html/faq.html">FAQ</a> <br>
+                        <a href="./manjunath html/Report Infringement.html">Report</a> <br>
+                    </div> <br>
+                    <div class="col-sm">
+                        <!-- One of three columns -->
+                        <h3>Policy</h3>
+                        <hr>
+                        <a href="./saurav html/return policy.html">Return Policy</a> <br>
+                        <a href="./saurav html/terms.html">Terms of use</a> <br>
+                        <a href="./saurav html/security.html">Security</a> <br>
+                        <a href="./saurav html/privacy.html">Privacy</a> <br>
+                        <a href="./saurav html/sitem.html">Site Map</a> <br>
+                        <a href="./saurav html/compliance.html">Compliance</a>
+                    </div>
+                    <div class="col-sm">
+                        <!-- One of four  -->
+                        <h3>Social</h3>
+                        <hr>
+                        <a href="https://www.facebook.com">Facebook</a> <br>
+                        <a href="https://www.twitter.com">Twitter</a> <br>
+                        <a href="https://www.google.com/">Google</a> <br>
+                        <a href="https://www.linkedin.com">LinkedIn</a> <br>
+                        <a href="https://www.youtube.com">YouTube</a> <br>
+                        <a href="https://www.instagram.com">Instagram</a> <br>
+                    </div>
+                </div>
+            </div>
+
+            <center>
+                <br>
+                <hr>
+                <h4>BLACK PEARL</h4>
+                <h4>All Rights Reserved</h4>
+                <!-- <h5>Made by-Tanmoy</h5> -->
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </center>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
